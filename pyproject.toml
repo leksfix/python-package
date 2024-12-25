@@ -7,6 +7,9 @@ name = "python-example-app"
 version = "0.1.0"
 description = "Example application"
 readme = "README.md"
+dependencies = [
+    "more-itertools>=10.5.0",
+]
 
 [tool.uv]
 dev-dependencies = [
